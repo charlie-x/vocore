@@ -87,11 +87,11 @@
 <text x="246.888" y="235.839" size="1.016" layer="21" font="vector" ratio="9" rot="SR270">+3.3V</text>
 <text x="249.428" y="235.839" size="1.016" layer="21" font="vector" ratio="9" rot="SR270">USB-</text>
 <text x="248.158" y="235.839" size="1.016" layer="21" font="vector" ratio="9" rot="SR270">USB+</text>
-<text x="232.664" y="228.6127" size="2.709340625" layer="21" font="vector" ratio="9" rot="SR90">VoCore v1.0 Dock</text>
-<text x="237.617" y="231.775" size="1.016" layer="21" font="vector" ratio="9" rot="SR90">convert your VoCore into the tiniest router on the earth.</text>
+<text x="236.474" y="233.6927" size="2.709340625" layer="21" font="vector" ratio="9" rot="SR90">VoCore v1.0 Dock</text>
+<text x="233.045" y="274.193" size="1.016" layer="21" font="vector" ratio="9" rot="SR0">convert your VoCore into the tiniest router on the earth.</text>
 <text x="261.366" y="262.001" size="1.016" layer="21" font="vector" ratio="9" rot="SR90">+3.3V ~ +6.0V</text>
 <text x="263.906" y="262.001" size="1.016" layer="21" font="vector" ratio="9" rot="SR90">GND</text>
-<text x="235.839" y="236.22" size="1.016" layer="21" font="vector" ratio="9" rot="SR90">copyright © 2014 vonger.cn</text>
+<text x="233.68" y="272.161" size="1.016" layer="21" font="vector" ratio="9" rot="SR0">copyright © 2014 vonger.cn</text>
 <text x="272.161" y="246.507" size="1.016" layer="21" font="vector" ratio="9" rot="SR0">G#05/SPI_MOSI</text>
 <text x="272.161" y="247.777" size="1.016" layer="21" font="vector" ratio="9" rot="SR0">G#04/SPI_CLK</text>
 <text x="263.398" y="235.839" size="1.016" layer="21" font="vector" ratio="9" rot="SR270">G#06/SPI_MISO</text>
@@ -219,14 +219,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="VoCore.dock.pcb">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+<designrules name="SilverCircuits4layer">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -234,48 +227,48 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
-<param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="layerSetup" value="((1*2)*(3*16))"/>
+<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
+<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mdWireWire" value="7mil"/>
+<param name="mdWirePad" value="7mil"/>
+<param name="mdWireVia" value="7mil"/>
+<param name="mdPadPad" value="7mil"/>
+<param name="mdPadVia" value="7mil"/>
+<param name="mdViaVia" value="7mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="20mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="7mil"/>
+<param name="msDrill" value="14mil"/>
+<param name="msMicroVia" value="9.9898mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0"/>
-<param name="rvPadInner" value="0"/>
-<param name="rvPadBottom" value="0"/>
-<param name="rvViaOuter" value="0"/>
-<param name="rvViaInner" value="0"/>
-<param name="rvMicroViaOuter" value="0"/>
-<param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="0mil"/>
-<param name="rlMaxPadTop" value="0mil"/>
-<param name="rlMinPadInner" value="0mil"/>
-<param name="rlMaxPadInner" value="0mil"/>
-<param name="rlMinPadBottom" value="0mil"/>
-<param name="rlMaxPadBottom" value="0mil"/>
-<param name="rlMinViaOuter" value="0mil"/>
-<param name="rlMaxViaOuter" value="0mil"/>
-<param name="rlMinViaInner" value="0mil"/>
-<param name="rlMaxViaInner" value="0mil"/>
-<param name="rlMinMicroViaOuter" value="0mil"/>
-<param name="rlMaxMicroViaOuter" value="0mil"/>
-<param name="rlMinMicroViaInner" value="0mil"/>
-<param name="rlMaxMicroViaInner" value="0mil"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -297,7 +290,7 @@ design rules under a new name.</description>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
-<param name="checkFont" value="1"/>
+<param name="checkFont" value="0"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
@@ -611,8 +604,6 @@ design rules under a new name.</description>
 <vertex x="271.78" y="236.2454"/>
 <vertex x="246.38" y="236.2454"/>
 </polygon>
-<wire x1="261.1882" y1="260.8326" x2="262.4582" y2="260.8326" width="0" layer="19" extent="1-1"/>
-<wire x1="257.81" y1="256.1082" x2="261.1882" y2="260.8326" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <via x="253.238" y="240.03" extent="1-16" drill="0.3048" diameter="0.6096"/>
