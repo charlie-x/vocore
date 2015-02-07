@@ -585,14 +585,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="VoCore.v1.0">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+<designrules name="SilverCircuits4layer">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -600,48 +593,48 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
-<param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="layerSetup" value="((1*2)*(3*16))"/>
+<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
+<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mdWireWire" value="7mil"/>
+<param name="mdWirePad" value="7mil"/>
+<param name="mdWireVia" value="7mil"/>
+<param name="mdPadPad" value="7mil"/>
+<param name="mdPadVia" value="7mil"/>
+<param name="mdViaVia" value="7mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="20mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="7mil"/>
+<param name="msDrill" value="14mil"/>
+<param name="msMicroVia" value="9.9898mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0"/>
-<param name="rvPadInner" value="0"/>
-<param name="rvPadBottom" value="0"/>
-<param name="rvViaOuter" value="0"/>
-<param name="rvViaInner" value="0"/>
-<param name="rvMicroViaOuter" value="0"/>
-<param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="0mil"/>
-<param name="rlMaxPadTop" value="0mil"/>
-<param name="rlMinPadInner" value="0mil"/>
-<param name="rlMaxPadInner" value="0mil"/>
-<param name="rlMinPadBottom" value="0mil"/>
-<param name="rlMaxPadBottom" value="0mil"/>
-<param name="rlMinViaOuter" value="0mil"/>
-<param name="rlMaxViaOuter" value="0mil"/>
-<param name="rlMinViaInner" value="0mil"/>
-<param name="rlMaxViaInner" value="0mil"/>
-<param name="rlMinMicroViaOuter" value="0mil"/>
-<param name="rlMaxMicroViaOuter" value="0mil"/>
-<param name="rlMinMicroViaInner" value="0mil"/>
-<param name="rlMaxMicroViaInner" value="0mil"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -663,7 +656,7 @@ design rules under a new name.</description>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
-<param name="checkFont" value="1"/>
+<param name="checkFont" value="0"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
@@ -1729,20 +1722,17 @@ design rules under a new name.</description>
 <vertex x="278.4856" y="253.22021875"/>
 <vertex x="253.0856" y="253.22021875"/>
 </polygon>
-<wire x1="276.7838" y1="276.352" x2="277.3426" y2="274.8788" width="0" layer="19" extent="1-16"/>
+<wire x1="266.2428" y1="270.7386" x2="266.2174" y2="270.764" width="0" layer="19" extent="1-1"/>
 <wire x1="259.8166" y1="269.9512" x2="259.842" y2="269.9512" width="0" layer="19" extent="1-1"/>
 <wire x1="276.7838" y1="255.5748" x2="276.7838" y2="255.5494" width="0" layer="19" extent="16-16"/>
 <wire x1="264.6172" y1="263.5504" x2="264.6426" y2="263.5504" width="0" layer="19" extent="1-1"/>
 <wire x1="263.017" y1="263.5504" x2="263.0424" y2="263.5504" width="0" layer="19" extent="1-1"/>
 <wire x1="257.6068" y1="268.7574" x2="257.6068" y2="268.7828" width="0" layer="19" extent="16-16"/>
-<wire x1="266.2174" y1="270.764" x2="266.2428" y2="270.7386" width="0" layer="19" extent="1-1"/>
 <wire x1="267.8176" y1="261.1628" x2="267.843" y2="261.1374" width="0" layer="19" extent="1-1"/>
 <wire x1="263.017" y1="265.9634" x2="263.0424" y2="265.938" width="0" layer="19" extent="1-1"/>
 <wire x1="259.8166" y1="267.5636" x2="259.842" y2="267.5382" width="0" layer="19" extent="1-1"/>
 <wire x1="261.4168" y1="267.5636" x2="261.4422" y2="267.5382" width="0" layer="19" extent="1-1"/>
 <wire x1="267.0302" y1="265.9634" x2="267.0302" y2="266.319" width="0" layer="19" extent="1-1"/>
-<wire x1="277.6474" y1="254" x2="276.5806" y2="255.1684" width="0" layer="19" extent="1-1"/>
-<wire x1="277.0886" y1="270.8402" x2="277.5966" y2="274.3962" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3_FB">
 <via x="264.0076" y="274.4978" extent="1-16" drill="0.2032" diameter="0.4064"/>
@@ -2214,15 +2204,6 @@ design rules under a new name.</description>
 <vertex x="278.4856" y="253.22021875"/>
 <vertex x="253.0856" y="253.22021875"/>
 </polygon>
-<wire x1="277.5966" y1="275.9456" x2="277.6474" y2="277.8252" width="0" layer="19" extent="1-1"/>
-<wire x1="277.5966" y1="273.5326" x2="277.5966" y2="275.9456" width="0" layer="19" extent="1-1"/>
-<wire x1="277.3172" y1="272.3642" x2="277.5966" y2="273.5326" width="0" layer="19" extent="16-16"/>
-<wire x1="260.2484" y1="278.003" x2="260.2484" y2="277.2918" width="0" layer="19" extent="1-1"/>
-<wire x1="253.9492" y1="272.3388" x2="254.6604" y2="272.3388" width="0" layer="19" extent="1-1"/>
-<wire x1="277.5966" y1="266.319" x2="276.7838" y2="267.5636" width="0" layer="19" extent="16-16"/>
-<wire x1="277.5966" y1="256.7432" x2="275.3614" y2="256.54" width="0" layer="19" extent="1-1"/>
-<wire x1="277.5966" y1="255.9304" x2="277.5966" y2="256.7432" width="0" layer="19" extent="1-1"/>
-<wire x1="277.5966" y1="255.1684" x2="277.5966" y2="255.9304" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="JTAG_CLK">
 <via x="272.3388" y="276.4536" extent="1-16" drill="0.2032" diameter="0.4064"/>
