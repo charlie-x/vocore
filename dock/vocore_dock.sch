@@ -142,8 +142,8 @@ by exp-project-lbr.ulp</description>
 <pad name="10" x="4.191" y="6.223" drill="0.8636" diameter="1.27"/>
 <pad name="11" x="14.478" y="6.223" drill="0.8636" diameter="1.27"/>
 <pad name="12" x="11.811" y="6.223" drill="0.8636" diameter="1.27"/>
-<pad name="13" x="13.716" y="11.049" drill="3.2004" diameter="3.2004"/>
-<pad name="14" x="2.286" y="11.049" drill="3.2004" diameter="3.2004"/>
+<pad name="13" x="13.716" y="11.049" drill="2.286" diameter="2.286"/>
+<pad name="14" x="2.286" y="11.049" drill="2.286" diameter="2.286"/>
 <pad name="15" x="0.635" y="14.478" drill="1.016" diameter="1.3716" shape="long" rot="R90"/>
 <pad name="16" x="15.367" y="14.478" drill="1.016" diameter="1.3716" shape="long" rot="R90"/>
 <text x="-0.127" y="21.59" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
@@ -914,6 +914,8 @@ http://www.molex.com/webdocs/datasheets/pdf/en-us/0473093351_MEMORY_CARD_SOCKET.
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-63.5" y1="15.24" x2="-63.5" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="RJ45" gate="G$1" pin="GND"/>
+<wire x1="-38.1" y1="15.24" x2="-63.5" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="USB1" gate="G$1" pin="GND"/>
@@ -930,6 +932,10 @@ http://www.molex.com/webdocs/datasheets/pdf/en-us/0473093351_MEMORY_CARD_SOCKET.
 <wire x1="12.7" y1="-83.82" x2="12.7" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-81.28" x2="7.62" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="MICROSD" gate="G$1" pin="GND@1"/>
+<wire x1="15.24" y1="-81.28" x2="12.7" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="MICROSD" gate="G$1" pin="GND@0"/>
+<wire x1="15.24" y1="-83.82" x2="12.7" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="VSS"/>

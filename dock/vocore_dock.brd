@@ -201,8 +201,8 @@ by exp-project-lbr.ulp</description>
 <pad name="10" x="4.191" y="6.223" drill="0.8636" diameter="1.27"/>
 <pad name="11" x="14.478" y="6.223" drill="0.8636" diameter="1.27"/>
 <pad name="12" x="11.811" y="6.223" drill="0.8636" diameter="1.27"/>
-<pad name="13" x="13.716" y="11.049" drill="3.2004" diameter="3.2004"/>
-<pad name="14" x="2.286" y="11.049" drill="3.2004" diameter="3.2004"/>
+<pad name="13" x="13.716" y="11.049" drill="2.286" diameter="2.286"/>
+<pad name="14" x="2.286" y="11.049" drill="2.286" diameter="2.286"/>
 <pad name="15" x="0.635" y="14.478" drill="1.016" diameter="1.3716" shape="long" rot="R90"/>
 <pad name="16" x="15.367" y="14.478" drill="1.016" diameter="1.3716" shape="long" rot="R90"/>
 <text x="-0.127" y="21.59" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
@@ -732,6 +732,9 @@ design rules under a new name.</description>
 <vertex x="271.78" y="236.22"/>
 <vertex x="246.38" y="236.22"/>
 </polygon>
+<contactref element="RJ45" pad="8"/>
+<contactref element="MICROSD" pad="10"/>
+<contactref element="MICROSD" pad="9"/>
 </signal>
 <signal name="SPI_CLK">
 <via x="267.5382" y="254.9652" extent="1-16" drill="0.3048" diameter="0.6096"/>
